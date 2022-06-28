@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1 {
+            font-size: 30px;
+            color: green;
+        }
+        .c3 {
+            background-color: bisque;
+            margin: 10px;
+        }
+        /* 클래스 각자를 복합으로 이어서 사용 가능 */
+        .c1.c3
+        /* 별개의 클래스라고 인식하지 않게 공백없이  */
+        {
+            border: 2px solid black;
+        }
+        h3{
+            background-color: white;
+        }
+        /* .parents > div  */
+        .parents > .child2 
+        /* 스페이스(공백)는 내안에 들어와있는 모든 자손들에게 적용 그중에서 div만 적용 */
+        /* 꺽새(>)는 자기 자녀, 혹은 동료 개념의 태그들에 적용 */
+        { 
+            color: blueviolet;
+            border: 1px dotted black;
+            background-color: gainsboro;
+            margin: 5px;
+         }
+         
+    </style>
+</head>
+<body>
+    <div class="parents">
+        <h3>Parents</h3>
+            <div class="child1">
+                <h3>Child one</h3>
+            </div>
+            <div class="child2">
+                <h3>Child two</h3>
+                <div>GrandChild two-one</div>
+
+                <div>GrandChild two-two</div>
+            </div>
+            <div class="child3">
+                <h3>Child three</h3>
+                <div>GrandChild three-one</div>
+                <div>GrandChild three-two</div>
+            </div>
+    </div>
+    <!-- classes selector -->
+    <h2>classes selector</h2>
+    <div class="c4">Div Four</div>
+    <div class="c1 c3">Div Four using Others</div>
+    <!-- 기존에 사용하던 클래스의 기능을 활용(재활용) -->
+    <div class="c1"> Double C1 </div>
+    <div class="c2"> Double C2 </div>
+    <div class="c3"> Double C3 </div>
+</body>
+</html>
