@@ -14,48 +14,63 @@
     <title>Starter Template · Bootstrap v5.2</title>
     <div>
       <style>
+        body{
+            margin: 0px 180px;
+            padding: 48px 16px;
+        }
         header {
-        margin-bottom: 48px;
-        border-bottom-width: 1px;
-        padding-bottom: 16px;
-        border-block-end-style: double;
-        border-color: grey;
-      }
-      h1{
-        margin-top: 0px;
-        margin-bottom: 8px;
-      }
-      p {
-        margin-top: 0px;
-        margin-bottom: 16px;
-      }
-      h2 {
-        margin-top: 0px;
-        margin-bottom: 8px;
-      }
-      footer{
-    margin-top: 48px;
-    border-top-width: 1px;
-    padding-top: 48px;
-    margin-bottom: 48px;
-      }
-
-      .kim {
-       border-left-width: 1px;
-       border-top-width: 1px;
-       border-right-width: 1px;
-       border-bottom-width: 1px;
-       padding-left: 24px;
-       padding-right: 24px;
-       padding-top: 8px;
-       padding-bottom: 8px;
-       border-style: double;
-       border-color: blue;
-      }
-      .ka
-      {
-        width: 140px;
-      }
+            margin-bottom: 48px;
+            border-bottom-width: 1px;
+            padding-bottom: 16px;
+            border-block-end-style: double;
+            border-color: grey;
+        }
+        span, path {
+            font-size: 25px;
+            color: black;
+        }
+        h1,h2{
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+        .lineheight {
+          line-height: 25px;
+        }
+        p {
+            margin-top: 0px;
+            margin-bottom: 16px;
+        }
+        .bton {
+            font-size: 20px;
+            color: #fff;
+            border: 1px;
+            padding: 8px 24px;
+            border-style: double;
+            border-radius: 10px;
+            border-color: #0d6efd;
+            background-color: #0d6efd;
+        }
+        .hrr
+        {
+            width: 150px;
+        }
+        .line
+        {
+          margin-bottom: 30px;
+        }
+        div > .div1{
+            margin-top: 48px;
+            padding: 0px 24px;
+        }
+        div > .div2{
+            margin-top: 48px;
+            padding: 0px 24px;
+        }
+        footer{
+            margin: 48px 0px;
+            border-top-width: 1px;
+            padding-top: 48px;
+        }
       </style>
     </div>
     <!-- Favicons -->
@@ -91,26 +106,26 @@
 
       <main>
         <h1>Get started with Bootstrap</h1>
-        <p class="">
+        <p class="lineheight">
           Quickly and easily get started with Bootstrap's compiled,
           production-ready files with this barebones example featuring some
           basic HTML and helpful links. Download all our examples to get
           started.
         </p>
 
-        <div class="">
-         <a href="https://getbootstrap.com/docs/5.2/examples/" class="kim"
+        <div class="line">
+         <a href="https://getbootstrap.com/docs/5.2/examples/" class="bton"
             >Download examples </a>
         </div>
 
-        <div class="ka">
+        <div class="hrr">
           <hr>
         </div>
         
         <div class="">
-          <div class="">
+          <div class="div1">
             <h2>Starter projects</h2>
-            <p>
+            <p class="lineheight">
               Ready to beyond the starter template? Check out these open source
               projects that you can quickly duplicate to a new GitHub
               repository.
@@ -128,15 +143,10 @@
             </ul>
           </div>
 
-          <div class="">
-            <style>
-                  div{margin-top: 48px;
-    padding-left: 24px;
-    padding-right: 24px;}
-            </style>
+          <div class="div2">
             <h2>Guides</h2>
 
-              <p>
+              <p class="lineheight">
                 Read more detailed instructions and documentation on using or
                 contributing to Bootstrap.
               </p>
