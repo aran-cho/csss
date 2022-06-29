@@ -1,0 +1,112 @@
+/* header{
+    color: white;
+    background-color: black;
+} */
+.top {
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+.row{
+    margin: 0px 12px;
+    display: flex;
+}
+/* 플렉스는 바로 하위에만 적용 */
+.d1{
+    padding: 24px 12px;
+    width: 58%;
+} 
+.d2{
+    padding: 24px 12px;
+    width: 30%;
+} 
+.ab{
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.p1{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.ul-none{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.li1{
+    color: #fff;
+}
+.alb{
+    color: #fff;
+}
+.se{
+    background-color: black;
+    padding: 8px 0px;
+}
+.se_container{
+    margin: 0px 20px;
+    padding: 0px 12px;
+}
+
+.sec1{
+    margin: 0px 20px;
+    padding: 48px 12px;
+}
+.row1{
+    padding: 48px 0px;
+}
+.th{
+    padding: 0px 12px; 
+    text-align: center;
+    line-height: 30px;
+}
+.alb_ex{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.p2.p3{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.blue{
+    margin: 8px 0px;
+    border: 1px;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+.gray{
+    margin: 8px 0px;
+    border: 1px;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #6c757d;
+    background-color: #6c757d;
+    border-radius: 5px;
+}
+.four{
+    background-color: #f8f9fa;
+    padding: 48px 0px;
+}
+.fo-container{
+    margin: 0px 20px;
+    padding: 0px 12px;
+}
+.fo-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 8px 0px 8px;
+}
+.fo-bigcard{
+    width: 500px;
+    margin-top: 16px;
+    padding: 0px 8px;
+}
+.fo-card{
+    border: 2px;
+}
