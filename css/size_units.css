@@ -1,0 +1,22 @@
+*{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+/* 위의 코드가 기본 값!!, 의도한대로의 변경을 수월하게 하기 위해서 */
+
+.px-class{
+    font-size: 10px;
+}
+/* 절대값 , 디바이스에 따라 달라짐*/
+.rem-class{
+    font-size: 1rem;
+}
+
+.em-class{
+    font-size: 1em;
+}
+
+.percent-class{
+    font-size: 100%;
+}
