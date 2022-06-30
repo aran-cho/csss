@@ -1,0 +1,20 @@
+.container > div {
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid rgb(91, 114, 91);
+}
+@media all and (max-width: 400px) {
+    /* 400이하면 사라진다는 조건: max 사용*/
+    .third {
+        visibility: hidden;
+    }
+}
+@media all and (min-width: 500px) and (max-width: 600px){
+    .second {
+        visibility: hidden;
+    }
+    .forth {
+        visibility: hidden;
+    }
+}
+/* 어느 사이즈 되면 뚝 떡어지는 느낌(반응형)으로 줄 수 있음 */
