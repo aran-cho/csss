@@ -1,0 +1,38 @@
+* {
+    font-size: 12px;
+    margin: 2px;
+    padding: 0;
+    height: 100%;
+}
+/* .menu * {
+    border : 0.1rem solid gray;
+} */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.1rem;
+    background-color: antiquewhite;
+}
+.menu-right {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu-right > li {
+    list-style-type: none;
+}
+.main{
+    background-color: brown;
+}
+.footer{
+    background-color: tomato;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.1rem solid gray;
+}
+/* .container {
+    border: 0.1rem solid gray;
+} */

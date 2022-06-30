@@ -12,7 +12,7 @@
     margin: 0px 12px;
     display: flex;
 }
-/* 플렉스는 바로 하위에만 적용 */
+/* 플렉스는 바로 하위태그에만(바로 아래 자녀만) 적용 */
 .d1{
     padding: 24px 12px;
     width: 58%;
