@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+}
+.row{
+    margin: 0px 12px;
+    display: flex;
+}
+
+.Title1, .Title2, .Title3, .Title4, .Title5{
+    margin: 20px;
+    font-size: 15px;
+    }
+    .Title5{
+      margin-left: 100px;
+    }
+    .Title7, .Title8{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .Title7{
+      margin-left: 260px;
+    }
+    .Title8{
+        font-size: 12px;
+        padding-bottom: 5px;
+        color: #fff;
+        border: 5px solid #0d6efd;
+        background-color: #0d6efd;
+        border-radius: 10px;
+    }
+    .sData{
+        display: flex;
+        margin: 10px 40px;
+    }
+    .sData1, .sData2, .sData3, .sData4, .sData5 {
+        margin: 10px;
+        font-size: 5px;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .sData1{
+        background-color: rgb(200, 242, 255);
+        height: 210px;
+    }
+    .sData2{
+        background-color: rgb(240, 205, 234);
+        height: 210px;
+    }
+    .sData3{
+        background-color: rgb(255, 252, 203);
+        height: 200px;
+    }
+    .sData4{
+        background-color: rgb(203, 248, 249);
+        height: 210px;
+    }
+    .sData5{
+        background-color: rgb(255, 214, 214);
+        height: 200px;
+    }
+    .row3{
+        display: flex;
+        margin: 20px 80px;
+    }
+    .picture{
+        margin-right: 30px;
+    }
+    /* .textBox{
+        margin-right: 50px;
+    } */
+    .row4, .row5{
+        display: flex;
+    }
+    .cardBox11{
+        margin: 10px 20px;
+    }
+    .cardBox12{
+        margin: 10px 20px;
+    }
+    .cardBox13{
+        margin: 10px 20px;
+    }
